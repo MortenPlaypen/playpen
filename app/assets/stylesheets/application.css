@@ -9,5 +9,11 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
+ *= require bootstrap
+ *= require bootstrap-responsive.min
+ *= require m-styles.min
+ *= require m-forms.min
+ *= require m-buttons.min
+ *= require custom
  *= require_tree .
  */
