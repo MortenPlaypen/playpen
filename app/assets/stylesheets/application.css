@@ -10,7 +10,7 @@
  *
  *= require_self
  *= require bootstrap
- *= require bootstrap-responsive.min
+ *= require bootstrap-responsive
  *= require m-styles.min
  *= require m-forms.min
  *= require m-buttons.min
