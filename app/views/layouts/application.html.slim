@@ -1,0 +1,30 @@
+doctype html
+html.csstransforms.no-csstransforms3d.csstransitions
+  head
+    = stylesheet_link_tag "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'
+  body#home data-spy="scroll" data-target=".navbar"
+    .row.header
+      nav.navbar.navbar-fixed-top
+        .navbar-inner
+          .container
+            a.btn.btn-navbar.m-btn.blue data-toggle="collapse" data-target=".nav-collapse"
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            h1.brand
+              | Playpen Labs
+            div.nav-collapse
+              ul.nav.pull-right
+                li
+                  a.anchorLink href="#about" About
+                li
+                  a.anchorLink href="#blog" Blog 
+                li
+                  a href="#work" Work 
+                
+
+  == yield
