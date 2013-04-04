@@ -187,7 +187,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  jquery-rails (~> 2.0.0)
+  jquery-rails
   pg
   rails (= 3.2.13)
   refinerycms (~> 2.0.0)!

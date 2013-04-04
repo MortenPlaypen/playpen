@@ -3,6 +3,7 @@
 /log/*.log
 /tmp
 bin
+logfile
 
 # Documentation
 doc/api
@@ -18,6 +19,7 @@ public/themes/*
 # Public Cache
 public/javascripts/cache
 public/stylesheets/cache
+public/assets/*
 
 # Vendor Cache
 vendor/cache

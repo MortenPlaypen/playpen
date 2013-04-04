@@ -116,7 +116,7 @@ nav.primary ul li a:hover {
 .section{border-bottom: 1px solid #CCC;}
 
 .companycallout p{text-align: center;}
-.companycallout h1{text-transform:uppercase; font-size:5.5em; line-height:2em; color:#fff; text-align: center;}
+.companycallout h1{font-size:5.5em; line-height:2em; color:#fff; text-align: center;}
 .companycallout h2{font-size:47px;line-height:67px; font-weight:300; text-transform: uppercase;}
 
 /*CALLOUT*/
