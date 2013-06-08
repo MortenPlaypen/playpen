@@ -35,7 +35,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 # Refinery CMS
-gem 'refinerycms', '~> 2.0.0', :git => 'git://github.com/refinery/refinerycms.git', :branch => '2-0-stable'
+gem 'refinerycms', :git => 'git://github.com/refinery/refinerycms.git', :branch => '2-0-stable'
 
 # Specify additional Refinery CMS Extensions here (all optional):
 gem 'refinerycms-i18n', '~> 2.0.0'
