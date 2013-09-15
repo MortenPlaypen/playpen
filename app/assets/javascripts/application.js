@@ -12,11 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require twitter/bootstrap
+//= require bootstrap-lightbox
 //= require jquery.mousewheel-3.0.4.pack
 //= require jquery.gmap
 //= require iso-custom
 //= require jquery.isotope.min
-//= require bootstrap-scrollspy
 //= require anchor
-//= require bootstrap.min
 //= require_tree .

@@ -6,26 +6,31 @@ html.csstransforms.no-csstransforms3d.csstransitions
     = csrf_meta_tags
     meta name="viewport" content="width=device-width, initial-scale=1.0"
     link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'
-  body data-spy="scroll" data-target=".navbar"
-    /*.row.header*/
-    /*  nav.navbar.navbar-fixed-top*/
-    /*    .navbar-inner*/
-    /*      .container*/
-    /*        a.btn.btn-navbar.m-btn.blue data-toggle="collapse" data-target=".nav-collapse"*/
-    /*          span.icon-bar*/
-    /*          span.icon-bar*/
-    /*          span.icon-bar*/
-            /*h1.brand*/
-            /*  | Playpen Labs*/
-            /*div.nav-collapse*/
-            /*  ul.nav.pull-right*/
-            /*    li*/
-            /*      a.anchorLink href="#" Playing with Food*/
-            /*    li*/
-            /*      a.anchorLink href="#" Playing with 3D Printing*/
-            /*    li*/
-            /*      a.anchorLink href="#" For Hire*/
-                   
-                
+    javascript:
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  == yield
+      ga('create', 'UA-44055217-1', 'playpenlabs.com');
+      ga('send', 'pageview');
+  body data-spy="scroll" data-target=".navbar"
+    .my-container
+      .full.callout 
+        .container
+          .row-fluid
+            .companycallout
+              h1
+                =link_to "Playpen Labs", root_path
+              p 
+                .subtext
+                  | // a project incubator 
+      == yield
+
+      .push
+    footer.footer.center
+      | We are a no fine print company. WYSIWYG. contact us @ 
+      a.footer href="mailto:email@playpenlabs.com"
+        | email{at}playpenlabs.com
+
+    
