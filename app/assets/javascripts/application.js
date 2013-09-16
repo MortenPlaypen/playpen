@@ -13,9 +13,4 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
-//= require jquery.mousewheel-3.0.4.pack
-//= require jquery.gmap
-//= require iso-custom
-//= require jquery.isotope.min
-//= require anchor
 //= require_tree .
